@@ -335,7 +335,8 @@ function setLocationId(id){
 	    // localStorage.removeItem('user_id');
 	    // localStorage.removeItem('user_type');
 	    // alert('user:'+localStorage.removeItem('name'));
-	 
+	  nots();
+	
 		if(localStorage['name'] && localStorage['user_id'] && localStorage['user_type'])
 		{
 			if(localStorage['user_type']=='user')
